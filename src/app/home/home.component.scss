@@ -1,0 +1,17 @@
+mat-card {
+  width: 30%;
+  margin: 2em;
+  display: flex;
+  flex-direction: column;
+  button {
+    align-self: flex-end;
+  }
+}
+
+.add-todo-btn {
+  margin: 1em;
+}
+
+.complete {
+  text-decoration: line-through;
+}
